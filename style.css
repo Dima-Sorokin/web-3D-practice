@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
 #bg, canvas {
   position: fixed;
   top: 0;

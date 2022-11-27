@@ -110,7 +110,7 @@ function rotateModel() {
   const b = document.body.getBoundingClientRect().bottom;
 
   if (scrollPasition < document.documentElement.scrollTop) {
-    theModel.rotation.y += 0.05;
+    theModel.rotation.y += 0.06;
     camera.position.z += t * -0.001
     camera.position.x += t * 0.0005
     camera.position.y += t * -0.00002
